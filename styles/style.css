@@ -1,8 +1,58 @@
-/*
-Colors:
+nav {
+  height: 80px;
+  width: 100%;
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+  top: 0;
+  background-color: white;
+  margin: 10px;
+}
 
-*/
+
+nav img {
+  width: 120px;
+  height: auto;
+  float: left;
+  display: inline-block;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 5px;
+  list-style: none;
+  float: right;
+}
+
+div .container-1 {
+    display: flex;
+  position: fixed;
+  text-align: center;
+  color: white;
+  place-items: center;
+}
+#MusicForIMG {
+position:absolute;
+width: 100% ;
+  z-index: -1;
+  display:inline-block;
+}
+
+#MusicForH1 {
+     position: absolute;
+  color: white;
+  left: 40%;
+  top:300px;
+  z-index: 10;
+}
+#MusicFor {
+  position: absolute;
+  color: white;
+  left: 40%;
+  top:400px;
+   z-index: 10;
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
