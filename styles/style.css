@@ -1,10 +1,15 @@
 nav {
   height: 80px;
-  width: 100%;
-
   top: 0;
   background-color: white;
   margin: 10px;
+}
+
+.topnav {
+  position: static;
+  z-index: 10;
+  width: 100%;
+  background-color: white;
 }
 
 
